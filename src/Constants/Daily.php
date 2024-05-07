@@ -112,6 +112,8 @@ trait Daily
     public function uvIndexMax(): self
     {
         $this->withQuery(['daily' => 'uv_index_max']);
+
+        return $this;
     }
 
 
